@@ -1,0 +1,48 @@
+
+#calculator {
+	width: 325px;
+	height: auto;
+	background: #DEDEDE;
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .screen {
+	height: 40px;
+	width: 212px;
+
+	float: right;
+}
+
+.keys, .top {overflow: hidden;}
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+
+	cursor: pointer;
+
+	width: 66px;
+	height: 36px;
+
+
+	transition: all 0.2s ease;
+}
+
+.keys span.operator {
+	background: #DEDEDE;
+}
+
+.keys span.eval {
+	background: #DEDEDE;
+	box-shadow: 0px 4px #DEDEDE;
+	color: black;
+}
+
+.top span.clear {
+	background: #DEDEDE;
+	color: black;
+}
